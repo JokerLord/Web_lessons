@@ -1,0 +1,9 @@
+body {
+	/*background-color: wheat;
+	background-image: url(Джокер.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: 100%;*/
+	background: url("Джокер.jpg") no-repeat top center fixed wheat;
+}

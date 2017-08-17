@@ -1,0 +1,32 @@
+.relative {
+	width: 100px;
+	height: 100px;
+	background-color: wheat;
+	top: 10px;
+}
+
+.block1 {
+	position: relative;
+	background-color: blue;
+}
+
+.absolute {
+	width: 100px;
+	height: 100px;
+	background-color: wheat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.fixed {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	position: fixed;
+	z-index: 4;
+	top: 0;
+	right: 0;
+}

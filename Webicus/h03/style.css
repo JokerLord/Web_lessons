@@ -1,0 +1,20 @@
+body {
+	background-color: #008000;
+}
+
+p {
+	color: #48D1CC;
+	background-color: #FFA500; 
+}
+
+#tank {
+	color: green;
+}
+
+.orange {
+	color: purple;
+}
+
+.red {
+	color: white;
+}

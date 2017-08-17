@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.block1 {
+	/*float: left;*/
+	font-size: 16px;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 25%;
+	height: 150px;
+	background-color: aquamarine;
+	border: 2px solid yellow;
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #4f5190;
+	color: white;
+}
+
+li {
+	box-sizing: border-box;
+	font-size: 24px;
+	width: 25%;
+	display: inline-block;
+	padding: 20px;
+}
+
+li:hover {
+	background-color: #415130;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #FFF;
+}

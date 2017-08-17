@@ -1,0 +1,89 @@
+body {
+	background-image: url(blue_background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 300%;
+	color: #FFF;
+}
+
+h2 {
+	text-align: center;
+	font-size: 200%;
+	color: #00FFFF;
+}
+
+h3 {
+	font-size: 25px;
+	color: #4479D4;
+}
+
+pre {
+	color: #6A92D4;
+	font-size: 14px;
+}
+
+p {
+	color: #FFF;
+	font-size: 20px;
+}
+
+.block1 {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0px 150px 0px 150px;
+}
+
+.block2 {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0px 150px 0px 150px;
+}
+
+.my-site {
+	text-align: center;
+}
+
+#poems {
+	text-align: center;
+}
+
+.poem1 {
+	display: inline-block;
+	box-sizing: border-box;
+	background: #7B68EE;
+	width: 300px;
+	height: 200px;
+	padding: 50px 40px 50px 40px;
+	margin: 0px 100px 0px 80px;
+	color: #FFF;
+	border: 5px solid #FF4500
+}
+
+.poem2 {
+	display: inline-block;
+	box-sizing: border-box;
+	background: #7B68EE;
+	width: 300px;
+	height: 200px;
+	padding: 50px 40px 50px 40px;
+	margin: 0px 100px 0px 100px;
+	color: #FFF;
+	border: 5px solid #FF4500
+}
+
+.poem3 {
+	display: inline-block;
+	box-sizing: border-box;
+	background: #7B68EE;
+	width: 300px;
+	height: 200px;
+	padding: 50px 40px 50px 40px;
+	margin: 0px 80px 0px 100px;
+	color: #FFF;
+	border: 5px solid #FF4500
+}

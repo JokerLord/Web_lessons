@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Регистрация</title>
+</head>
+<body>
+	<h1>Регистрация на мой сайт</h1>
+	<form name="my_register" action="murad.py">
+		<label for="login">Логин: </label>
+		<input type="text" name="login" placeholder="Логин" required>
+		<br>
+
+		<label for="password">Пароль: </label>
+		<input type="password" name="password" placeholder="Пароль" required>
+		<br>
+
+		<label for="email">Почта: </label>
+		<input type="email" name="email" placeholder="youremail@mail.ru" required>
+		<br>
+
+		<label for="age">Возраст: </label>
+		<input type="number" name="age" min="1" max="100" value="1">
+		<br>
+
+		<label for="bdate">Дата рождения: </label>
+		<input type="date" name="bdate">
+		<br>
+
+		<label for="sex">Пол: </label>
+		<label>Мужчина:</label> <input type="radio" name="sex" value="man">
+		<label>Женщина:</label> <input type="radio" name="sex" value="woman">
+		<br>
+
+		<label for="murad">Напишите, что вы знаете обо мне</label>
+		<textarea></textarea>
+		<br>
+
+		<input type="submit" name="ok" value="Послать">
+		<input type="reset" name="cancel" value="Отменить">
+
+	</form>
+</body>
+</html>

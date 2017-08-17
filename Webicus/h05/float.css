@@ -1,0 +1,14 @@
+div {
+	border: 1px solid red;
+	/*clear: both;*/
+	overflow: auto;
+}
+
+img {
+	width: 200px;
+	float: left;
+}
+
+.second img {
+	float: right;
+}

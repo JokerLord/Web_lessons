@@ -1,0 +1,136 @@
+@font-face {
+	font-family: MainHeader;
+	src: url(10622.ttf);
+}
+
+body {
+	background-image: url(blue_background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 300%;
+	color: #FFF;
+	font-family: MainHeader;
+}
+
+h2 {
+	text-align: center;
+	font-size: 200%;
+	color: #00FFFF;
+}
+
+h3 {
+	font-size: 25px;
+	color: #4479D4;
+}
+
+pre {
+	color: #6A92D4;
+	font-size: 14px;
+}
+
+p {
+	color: #FFF;
+	font-size: 20px;
+}
+
+.block1 {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0px 150px 0px 150px;
+}
+
+.block2 {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0px 150px 0px 150px;
+}
+
+.my-site {
+	text-align: center;
+}
+
+#poems {
+	text-align: center;
+}
+
+.poem1 {
+	display: inline-block;
+	box-sizing: border-box;
+	background: #7B68EE;
+	width: 300px;
+	height: 200px;
+	padding: 50px 40px 50px 40px;
+	margin: 0px 100px 0px 80px;
+	color: #FFF;
+	border: 5px solid #FF4500
+}
+
+.poem2 {
+	display: inline-block;
+	box-sizing: border-box;
+	background: #7B68EE;
+	width: 300px;
+	height: 200px;
+	padding: 50px 40px 50px 40px;
+	margin: 0px 100px 0px 100px;
+	color: #FFF;
+	border: 5px solid #FF4500
+}
+
+.poem3 {
+	display: inline-block;
+	box-sizing: border-box;
+	background: #7B68EE;
+	width: 300px;
+	height: 200px;
+	padding: 50px 40px 50px 40px;
+	margin: 0px 80px 0px 100px;
+	color: #FFF;
+	border: 5px solid #FF4500
+}
+
+.song {
+	text-align: justify;
+	text-decoration: none;
+	font-weight: 800;
+	font-style: oblique;
+	font-family: serif;
+	/*font-family: monospace;*/
+}
+
+.name {
+	text-decoration: none;
+}
+
+.name:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+.name:active {
+	text-decoration: underline;
+	color: blue;
+}
+
+ul {
+	list-style: url(star.jpg);
+}
+
+a {
+	text-decoration: none;
+}
+
+.button {
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: #FFA500;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid #800080;
+}
